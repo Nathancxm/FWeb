@@ -1,0 +1,62 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu-opcoes ul{
+    font-size: 20px;
+}
+
+.menu-opcoes a{
+    color: #195ec5;
+}
+
+.container{
+    width: 90%;
+    margin-right: auto;
+    margin-left: 30px;
+}
+
+.menu-opcoes{
+    position: absolute;
+    top: 15px;
+    right: 30px;
+}
+
+.menu-opcoes ul li{
+    display: inline;
+    margin-left: 20px;
+}
+
+#imglogo{
+    width: 50px;
+    height: 50px;
+}
+
+.painel{
+    width: 40%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.aula2{
+    float: left;
+    background-color: #195ec5;
+}
+
+.aula3{
+    float: right;
+    background-color: coral;
+}
+
+.painel li{
+    display: inline-block;
+    width: 10%;
+    vertical-align: top;
+    margin: 2px;
+    padding-bottom: 5px;
+}
+
+.painel h2{
+    font-size: 20px;
+
+}
