@@ -1,0 +1,14 @@
+.container{
+    width: 90%;
+    margin-right: auto;
+    margin-left: 30px;
+}
+.container a[href*=github]{
+    color: black;
+}
+.container a[href*=instagram]{
+    color: blueviolet;
+}
+.container a[href*=facebook]{
+    color:blue;
+}
