@@ -1,0 +1,140 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif    
+}
+
+body{
+    background: linear-gradient(black,white);
+}
+
+.menu-opcoes ul{
+    font-size: 15px;
+}
+
+.menu-opcoes a{
+    color: #195ec5;
+}
+
+.menu-opcoes a:hover{
+    color: darkorchid;
+}
+
+.menu-opcoes a:active{
+    color: chocolate;
+}
+
+.container{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.menu-opcoes{
+    position: absolute;
+    top: 15px;
+    right: 30px;
+}
+
+.menu-opcoes ul li{
+    display: inline;
+    margin-left: 20px;
+    
+}
+
+.imglogo{
+    width: 50px;
+    height: 50px;
+}
+
+
+.painel{
+    width: 40%;
+    margin: 10px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px black;
+}
+
+.aula2{
+    float: left;
+    background-color: #4073bf;
+    background: linear-gradient(white, blue);
+}
+
+.aula3{
+    float: right;
+    background-color: rgb(215, 115, 78);
+    background: linear-gradient(orange, white);
+}
+
+.painel li{
+    display: inline-block;
+    width: 10%;
+    vertical-align: top;
+    margin: 2px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.painel h2{
+    font-size: 25px;
+    text-shadow: 5px 5px 3px rgba(49, 51, 46, 0.8);
+}
+
+.imgexerc{
+    height: 25px;
+    width: auto;
+}
+
+.social li a[href*=github]{
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/github.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+
+.social li a[href*=instagram]{
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/instagram.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+.social li a[href*=facebook]{
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/facebook.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    text-indent: -9999px;
+}
+
+.social{
+    position: absolute;
+    top: 12px;
+    right: 10px;
+}
+
+footer{
+    clear:both;
+}
+
+.social li{
+    float: left;
+    margin-right: 20px;
+}
+
+.painel li:hover{
+    box-shadow: 5px 5px 3px;
+    transition: 0.5s;
+    background-color: rgba(rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), alpha);
+    border-radius: 5px;
+    transform: scale(1.2) rotate(-5deg);
+}
+
