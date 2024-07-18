@@ -1,5 +1,7 @@
 body{
     background-image: url(../img/bk.escuro.avif);
+    width: 100%;
+    height: 100%;
 }
 
 .menu-opcoes ul{
@@ -38,6 +40,11 @@ body{
 
 #inputlupa{
     padding-inline: 50px;
+}
+
+.busca{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .busca,.menu-conteudo{
